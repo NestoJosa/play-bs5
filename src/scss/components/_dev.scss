@@ -1,1 +1,14 @@
 // _dev.scss
+
+.Hero {
+
+    &__image {
+        background-color: blue;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 200px;
+    }
+
+}
