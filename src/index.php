@@ -12,13 +12,42 @@
 </head>
 <body>
 
-    <h1>Prototype</h1>
 
-    <div>
-        <div class="step"></div>
-        <div class="step"></div>
-        <div class="step"></div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="steps">
+        <div class="step">
+            <div class="step-number">
+                1
+            </div>
+            <div class="step-body">
+                <h5>Lorem Ipsum</h5>
+                <p>Lectus urna duis convallis convallis tellus id interdum velit laoreet.</p>
+            </div>
+        </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 <footer>
