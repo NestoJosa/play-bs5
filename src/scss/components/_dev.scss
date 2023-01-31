@@ -9,6 +9,28 @@
     display: flex;
     align-items: center;
     padding-bottom: 1.5rem;
+
+    // &:first-child { padding-top: 0 !important; }
+    // &:last-child { padding-bottom: 0 !important; }
+
+    &::before, &::after {
+        position: absolute;
+        width: 1px;
+        height: 50%;
+        content: "";
+        left: 2.5rem;
+    }
+
+    &::before { top: 0; }
+    &::after { top: 50%; }
+
+    &:not(:first-child)::before {
+        background-color: blue;
+    }
+    &:not(:last-child)::after {
+    background-color: blue;
+    }
+
 }
 
 .step-number {
@@ -23,6 +45,7 @@
     border-radius: 50%;
     background-color: lightgray;
     z-index: 2;
+    // opacity: 0.5;
 }
 
 .step-body {
