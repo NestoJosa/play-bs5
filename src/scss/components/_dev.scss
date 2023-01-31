@@ -1,8 +1,22 @@
 // _dev.scss
 
 .step {
-    padding: relative;
+    position: relative;
     display: flex;
     align-items: center;
     padding-bottom: 1.5rem;
+}
+
+.step-number {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: grey;
+    z-index: 2;
 }

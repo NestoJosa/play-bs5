@@ -14,18 +14,6 @@
 </head>
 <body>
 
-
-
-
-
-
-
-
-
-
-
-
-
     <div class="steps">
         <div class="step">
             <div class="step-number">
@@ -37,19 +25,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 <footer>
