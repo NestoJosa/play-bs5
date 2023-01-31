@@ -21,7 +21,25 @@
             </div>
             <div class="step-body">
                 <h5>Lorem Ipsum</h5>
-                <p>Lectus urna duis convallis convallis tellus id interdum velit laoreet.</p>
+                <p>Volutpat diam ut venenatis tellus in metus. Porttitor leo a diam sollicitudin tempor id eu.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">
+                2
+            </div>
+            <div class="step-body">
+                <h5>Lorem Ipsum</h5>
+                <p>Volutpat diam ut venenatis tellus in metus. Porttitor leo a diam sollicitudin tempor id eu.</p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-number">
+                3
+            </div>
+            <div class="step-body">
+                <h5>Lorem Ipsum</h5>
+                <p>Volutpat diam ut venenatis tellus in metus. Porttitor leo a diam sollicitudin tempor id eu.</p>
             </div>
         </div>
     </div>

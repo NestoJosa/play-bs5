@@ -1,5 +1,9 @@
 // _dev.scss
 
+.steps {
+    margin: 2rem;
+}
+
 .step {
     position: relative;
     display: flex;
@@ -17,6 +21,12 @@
     justify-content: center;
     flex-shrink: 0;
     border-radius: 50%;
-    background-color: grey;
+    background-color: lightgray;
     z-index: 2;
+}
+
+.step-body {
+    padding-left: 1rem;
+
+    h5 { margin-bottom: 0.5rem; }
 }
