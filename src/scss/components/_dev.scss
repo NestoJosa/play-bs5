@@ -2,6 +2,8 @@
 
 .steps {
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .step {
@@ -15,10 +17,10 @@
 
     &::before, &::after {
         position: absolute;
+        left: 2.5rem;
         width: 1px;
         height: 50%;
         content: "";
-        left: 2.5rem;
     }
 
     &::before { top: 0; }
@@ -28,7 +30,7 @@
         background-color: blue;
     }
     &:not(:last-child)::after {
-    background-color: blue;
+        background-color: blue;
     }
 
 }
@@ -52,4 +54,36 @@
     padding-left: 1rem;
 
     h5 { margin-bottom: 0.5rem; }
+}
+
+// Horizontal steps
+@media (min-width: 992px) { 
+    .steps {
+        flex-direction: row;   
+    }
+
+    .step {
+        display: block;
+        flex-basis: 0;
+        flex-grow: 1;
+        text-align: center;
+        
+        &::before, &::after {
+            top: 2.5rem;
+            height: 1px;
+        }
+        &::before {
+            display: none;
+            left: 0;
+        }
+        &::after {
+            left: 50%;
+            width: 100%;
+        }
+    }
+
+    .step-number {
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
